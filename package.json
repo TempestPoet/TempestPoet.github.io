@@ -1,0 +1,28 @@
+{
+  "name": "riddle_project",
+  "version": "1.0.0",
+  "description": "wordfind Generator in js and html",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TempestPoet/01_Riddle-Project_Primary.git"
+  },
+  "keywords": [
+    "riddle",
+    "words",
+    "generator",
+    "wordfind"
+  ],
+  "author": "Etienne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TempestPoet/01_Riddle-Project_Primary/issues"
+  },
+  "homepage": "https://github.com/TempestPoet/01_Riddle-Project_Primary#readme",
+  "dependencies": {
+    "jquery": "^3.6.1"
+  }
+}

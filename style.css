@@ -1,0 +1,122 @@
+root {
+    display: inline-flex;
+}
+
+body {
+    text-align:center;
+    background-image: url('/public/img/1920x1056_questionMark_bg.jpg');
+   color: rgb(255, 255, 255); 
+}
+ tr > td:hover {
+  transform: scale(1.15);
+  background-color: #b6b8b6;
+  cursor: pointer;
+  user-select: none;
+ }
+  
+  tr > td:active {
+  background-color: #b20a37;
+}  
+
+
+
+p {
+    font-family:monospace;
+}
+
+table {
+    margin: 1rem auto;
+    table-layout: fixed;
+    text-transform: uppercase;
+    
+}
+td {
+    width:3rem;
+    height:3rem;
+    border: 1px solid rgb(255, 255, 255);
+    font-size:2.5rem;
+   /* text-align:center; */
+    font-family:arial, helvetica, sans-serif;
+    font-display: block;
+
+}
+
+.btn {
+   /* background: #053d76; */
+    background: #6300a0;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: .5rem .7rem;
+    border-radius: 1.7rem;
+    transform: scale(1);
+    transition: transform 200ms;
+  }
+  .btn:hover {
+    transform: scale(1.1);
+  }
+#riddleButton, #clearButton {
+    margin: .5rem .5rem;
+}
+#clearButton {
+    background-color: #b20a37;
+}
+
+  .form__group input {
+    border: 3px solid #6300a0;
+    border-radius: 100rem;
+    color: #6300a0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+    outline: none;
+    padding: 0.5rem 1.5rem;
+    width: border-box;
+    text-transform: uppercase; 
+    transition: background-color 500ms;
+    /* &:not(:focus):valid {
+        background-color: $cd-valid;
+        border: 2px solid $cd-valid;
+        color: $cd-txt--invalid;
+    } */
+  }
+  .form__group input:focus {
+    border: 2px solid #6300a0;
+  }
+  .form__group input:not(:focus):invalid {
+    background-color: #b20a37;
+    border: 2px solid #b20a37;
+    color: #fff;
+  }
+
+.listedItems {
+  padding: 0.3rem .5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  
+}
+#ordered-List {
+  display: inline-block;
+  text-align: left;
+  column-count: 2;
+  column-gap: 4rem;
+  
+}
+  .addedWordList {
+    text-align: center;
+   /* color: #2696b8; */
+  }
+
+td.solved {
+ /* text-decoration: line-through; */
+  background-color: green;
+}
+
+  
+/*******************************E X P E R I M E N T A L - M O U S E O V E R**********************************/
+
+td.selected {
+  background-color: #8a8a8a;
+}
+

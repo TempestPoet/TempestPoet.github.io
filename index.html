@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" />
+    
+    
+    
+</head>
+
+<body>
+    
+    <section>
+        <div>
+            <input type="button" value="New Riddle" class="btn" id="riddleButton" onclick="drawRiddle();">
+            <input type="button" value="Clear Riddle" class="btn" id="clearButton" onclick="clearRiddle();">
+            <input type="button" value="Test1" class="btn" id="testButton" onclick="placeWords();">
+            <input type="button" value="Test2" class="btn" id="testButton2" onclick="addAllWords();"> 
+
+        </div>
+        <table id="content-table">
+            <tr>
+                <td id="00"></td>
+                <td id="01"></td>
+                <td id="02"></td>
+                <td id="03"></td>
+                <td id="04"></td>
+                <td id="05"></td>
+                <td id="06"></td>
+                <td id="07"></td>
+                <td id="08"></td>
+                <td id="09"></td>
+            </tr>
+            <tr>
+                <td id="10"></td>
+                <td id="11"></td>
+                <td id="12"></td>
+                <td id="13"></td>
+                <td id="14"></td>
+                <td id="15"></td>
+                <td id="16"></td>
+                <td id="17"></td>
+                <td id="18"></td>
+                <td id="19"></td>
+            </tr>
+            <tr>
+                <td id="20"></td>
+                <td id="21"></td>
+                <td id="22"></td>
+                <td id="23"></td>
+                <td id="24"></td>
+                <td id="25"></td>
+                <td id="26"></td>
+                <td id="27"></td>
+                <td id="28"></td>
+                <td id="29"></td>
+            </tr>
+            <tr>
+                <td id="30"></td>
+                <td id="31"></td>
+                <td id="32"></td>
+                <td id="33"></td>
+                <td id="34"></td>
+                <td id="35"></td>
+                <td id="36"></td>
+                <td id="37"></td>
+                <td id="38"></td>
+                <td id="39"></td>
+            </tr>
+            <tr>
+                <td id="40"></td>
+                <td id="41"></td>
+                <td id="42"></td>
+                <td id="43"></td>
+                <td id="44"></td>
+                <td id="45"></td>
+                <td id="46"></td>
+                <td id="47"></td>
+                <td id="48"></td>
+                <td id="49"></td>
+            </tr>
+            <tr>
+                <td id="50"></td>
+                <td id="51"></td>
+                <td id="52"></td>
+                <td id="53"></td>
+                <td id="54"></td>
+                <td id="55"></td>
+                <td id="56"></td>
+                <td id="57"></td>
+                <td id="58"></td>
+                <td id="59"></td>
+            </tr>
+            <tr>
+                <td id="60"></td>
+                <td id="61"></td>
+                <td id="62"></td>
+                <td id="63"></td>
+                <td id="64"></td>
+                <td id="65"></td>
+                <td id="66"></td>
+                <td id="67"></td>
+                <td id="68"></td>
+                <td id="69"></td>
+            </tr>
+            <tr>
+                <td id="70"></td>
+                <td id="71"></td>
+                <td id="72"></td>
+                <td id="73"></td>
+                <td id="74"></td>
+                <td id="75"></td>
+                <td id="76"></td>
+                <td id="77"></td>
+                <td id="78"></td>
+                <td id="79"></td>
+            </tr>
+            <tr>
+                <td id="80"></td>
+                <td id="81"></td>
+                <td id="82"></td>
+                <td id="83"></td>
+                <td id="84"></td>
+                <td id="85"></td>
+                <td id="86"></td>
+                <td id="87"></td>
+                <td id="88"></td>
+                <td id="89"></td>
+            </tr>
+            <tr>
+                <td id="90"></td>
+                <td id="91"></td>
+                <td id="92"></td>
+                <td id="93"></td>
+                <td id="94"></td>
+                <td id="95"></td>
+                <td id="96"></td>
+                <td id="97"></td>
+                <td id="98"></td>
+                <td id="99"></td>
+            </tr>
+        </table>
+       
+
+        
+    </section>
+    <section><p id="to-do"></p></section>
+    <section>
+        <div class="addedWordList">
+            <h4>Added Words:</h4>
+            <ol id="ordered-List">
+                
+            </ol>
+        </div>
+    </section>
+    
+    <section>
+        <div class="form">
+            <div class="form__group">
+                <label for="word-input">Choose a word to place into the riddle:</label>
+                <input type="text" id="word-input-field"  class="form-control" placeholder="max. 10 letters" pattern="[A-Za-z]{3,10}">
+                <button type="button" class="btn" id="word-submit-button">Submit</button>
+            </div>
+        </div>
+            
+    </section>
+    
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+    <script
+  src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script> 
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
